@@ -1,0 +1,20 @@
+Builder tasarım deseni, nesnelerin adım adım oluşturulmasına ve özelleştirilmesine izin veren bir tasarım desenidir.
+Diğer tasarım desenleriyle karşılaştırıldığında şu farklara sahiptir:
+
+Singleton ve Factory Method gibi diğer desenler, nesne oluşturma işlemlerini sınırlar ve kullanıcılara sınırlı bir seçenek sunar.
+Builder deseni ise nesne oluşturma işlemini çok daha esnek hale getirir ve kullanıcılara farklı özellikleri seçme ve özelleştirme imkanı verir.
+
+Abstract Factory tasarım deseni, ilişkili nesnelerin oluşturulmasını sağlar.
+Builder deseni ise tek bir nesne üzerinde yoğunlaşır ve onu adım adım inşa eder.
+
+Prototype deseni, mevcut bir nesnenin kopyasını oluşturmak için kullanılırken,
+Builder deseni, yeni bir nesne oluşturmak için kullanılır.
+
+Decorator deseni, nesnelerin davranışlarını değiştirmek için kullanılırken,
+Builder deseni nesnelerin özelliklerini değiştirmek için kullanılır.
+
+Composite deseni, bir grup nesnenin tek bir nesne olarak ele alınmasına izin verirken,
+Builder deseni tek bir nesne oluşturmak için kullanılır.
+
+Observer deseni, bir nesne durumunda değişiklik olduğunda diğer nesneleri bildirim vermek için kullanılırken,
+Builder deseni bir nesne oluşturmak için kullanılır.

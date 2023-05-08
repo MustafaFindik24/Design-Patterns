@@ -1,0 +1,11 @@
+Abstract Factory tasarım deseni, aynı aileye ait nesnelerin oluşturulmasını sağlayan bir creational tasarım desenidir.
+Bu desen, birbiriyle ilgili veya birbirine bağımlı nesnelerin yaratılmasını kolaylaştırır.
+
+Abstract Factory deseni, bir arayüz veya soyut sınıf tanımlar ve bu arayüzü veya soyut sınıfı uygulayan birden fazla somut fabrika sınıfı tanımlar.
+Her fabrika sınıfı, belirli bir nesne ailesinin farklı varyasyonlarını oluşturmak için gerekli olan yöntemleri uygular.
+
+Bu desen, nesne yaratma işleminin uygulama kodundan soyutlanmasını sağlar.
+Uygulama, yalnızca bir fabrika nesnesine ihtiyaç duyar ve bu nesne üzerinden ilgili nesne ailesinin nesnelerini yaratır.
+
+Özetle, Abstract Factory deseni, nesne yaratma işlemini uygulama kodundan soyutlayarak,
+bir nesne ailesinin farklı varyasyonlarının oluşturulmasını kolaylaştıran bir tasarım desenidir.

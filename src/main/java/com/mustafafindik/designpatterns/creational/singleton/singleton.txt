@@ -1,0 +1,15 @@
+SINGLETON DESIGN PATTERN IMPLEMENTATION
+
+To implement a singleton pattern, we have different approaches, but all of them have the following common concepts.
+
+* Private constructor to restrict instantiation of the class from other classes.
+* Private static variable of the same class that is the only instance of the class.
+* Public static method that returns the instance of the class, this is the global access point for the outer world to get the instance of the singleton class.
+
+***********************************************************
+
+Singleton tasarım deseni, bir sınıfın yalnızca bir örneğine sahip olmasını sağlayan bir tasarım desenidir.
+Bu, bu sınıfın her zaman aynı örneğine erişilebileceği anlamına gelir ve birden fazla örneğin yanlışlıkla yaratılmasını önler.
+
+Singleton tasarım deseni, özellikle çok büyük ve karmaşık nesnelerin yaratılmasının maliyetli olduğu durumlarda kullanışlıdır.
+Örneğin, veritabanı bağlantısı veya log kaydı gibi kaynak yoğun işlemler için kullanılabilir.

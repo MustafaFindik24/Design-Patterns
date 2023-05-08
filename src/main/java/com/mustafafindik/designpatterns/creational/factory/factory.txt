@@ -1,0 +1,12 @@
+Factory tasarım deseni, nesne yönelimli programlamada kullanılan bir yaratıcı tasarım desenidir.
+Bu desen, bir nesne yaratmanın karmaşık olduğu durumlarda kullanışlıdır.
+
+Factory tasarım deseni, nesne yaratma işlemini yalnızca bir yerde yöneterek kodun daha düzenli ve sürdürülebilir olmasını sağlar.
+Bu desen, bir arayüz veya sınıf üzerinden bir nesne yaratmak için bir fabrika sınıfı kullanır.
+Bu fabrika sınıfı, istemcinin ihtiyaç duyduğu nesneyi yaratmak ve geri döndürmek için gerekli olan mantığı uygular.
+
+Bu desen, özellikle nesne yaratma işleminin zaman alıcı, maliyetli veya karmaşık olduğu durumlarda kullanışlıdır.
+Ayrıca, istemcinin hangi nesnenin yaratılacağına karar vermek yerine, sadece istediği nesneyi talep etmesi ve gerisini
+fabrika sınıfına bırakması gerektiği durumlarda da kullanışlıdır.
+
+Özetle, factory tasarım deseni, bir nesne yaratmanın karmaşıklığını, kodun okunabilirliğini ve sürdürülebilirliğini artırmak için kullanılan bir tasarım desenidir.
