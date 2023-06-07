@@ -12,16 +12,18 @@ public final class Singleton {
         }
         this.value = value;
     }
-    public static synchronized Singleton getInstance(String value){
+    public static Singleton getInstance(String value){
         Singleton result = instance;
         if (result != null){
             return result;
         }
-        //synchronized (Singleton.class){ // synchronized birden fazla threadin aynı anda getInstance() erişmesini önler (thread-safe)
-            if(instance == null){
-                instance = new Singleton(value);
+        if (instance == null){ // double-checked
+            synchronized (Singleton.class){ // synchronized birden fazla threadin aynı anda getInstance() erişmesini önler (thread-safe)
+                if(instance == null){
+                    instance = new Singleton(value);
+                }
             }
-        //}
+        }
         return instance;
     }
 }

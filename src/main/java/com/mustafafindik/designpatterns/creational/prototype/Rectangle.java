@@ -1,7 +1,7 @@
 package com.mustafafindik.designpatterns.creational.prototype;
 
 public class Rectangle implements Shape{
-    private String type;
+    private final String type;
     public Rectangle(){
         type = "Rectangle";
     }

@@ -1,0 +1,14 @@
+Tanım:
+Decorator tasarım deseni, nesnelerin davranışlarını dinamik olarak
+genişletmeyi ve değiştirmeyi sağlayan bir yapısal tasarım desenidir.
+Bu desen, bir nesneyi saran ve ona yeni davranışlar ekleyen veya varolan davranışları değiştiren
+bir dizi dekoratör sınıfı kullanır. Bu sayede, istemciler için yeni birleşik bir nesne oluşturulur.
+
+Amaç:
+Decorator tasarım deseninin amacı, nesnelerin yapısını değiştirmeden ek işlevselliğin eklenmesini sağlamaktır.
+Böylece, nesnelerin davranışları dinamik olarak genişletilebilir ve değiştirilebilir. Bu desen, alt sınıfların
+birleşik bir şekilde kullanılmasını sağlayarak esneklik ve ölçeklenebilirlik sunar.
+
+***********************************************************************************
+
+Decorator design patterni, nesnenin varolan yapısını koruyarak farklı özellikler kazardırmaya olanak sağlar.

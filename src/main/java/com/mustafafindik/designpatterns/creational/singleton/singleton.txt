@@ -13,3 +13,10 @@ Bu, bu sınıfın her zaman aynı örneğine erişilebileceği anlamına gelir v
 
 Singleton tasarım deseni, özellikle çok büyük ve karmaşık nesnelerin yaratılmasının maliyetli olduğu durumlarda kullanışlıdır.
 Örneğin, veritabanı bağlantısı veya log kaydı gibi kaynak yoğun işlemler için kullanılabilir.
+
+***********************************************************
+Bir nesnenin birden fazla defa oluşturulmaması gereken bir durum isteniyor ise singleton design pattern i kullanılır.
+Sınıfın constructor ı private olarak tanımlanır.
+Nesne new keyword ü ile static tanımlanan field üzerinden static bir metot içerisinde sadece bir defa oluşturulur.
+Multiple thread erişimi için thread-safe yapısı oluşturmak açısından static metot içerisinde synchronized modifier ı kullanılır.
+Multiple thread in getirdiği yavaşlığı önlemek için double-checked yöntemi kullanılır.

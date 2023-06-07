@@ -10,3 +10,8 @@ Ayrıca, istemcinin hangi nesnenin yaratılacağına karar vermek yerine, sadece
 fabrika sınıfına bırakması gerektiği durumlarda da kullanışlıdır.
 
 Özetle, factory tasarım deseni, bir nesne yaratmanın karmaşıklığını, kodun okunabilirliğini ve sürdürülebilirliğini artırmak için kullanılan bir tasarım desenidir.
+
+***************************************************************************************************************************************
+
+Factory Design Pattern, basit olarak bir nesne yaratmada kullanılır. Nesne tek bir sınıfta yaratılır ve if-else bloğu ile sıralı olarak
+hangi nesnenin yaratılması gerektiğine karar verilir.

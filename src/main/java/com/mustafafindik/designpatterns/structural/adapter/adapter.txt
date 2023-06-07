@@ -1,0 +1,25 @@
+Adapter tasarım deseni, birbirleriyle uyumsuz olan sınıfların birlikte çalışabilmesini sağlamak için
+kullanılan bir yapısal tasarım desenidir. Bu desen, mevcut bir sınıfı hedeflenen bir
+arabirime uyacak şekilde adapte etmeyi amaçlar.
+
+Adapter tasarım deseni, genellikle üç bileşenden oluşur:
+
+Hedeflenen Arabirim (Target Interface): Sistemde kullanılan ve uyumlu olması hedeflenen bir arabirimdir.
+Bu arabirim, adaptör tarafından uygulanacak metotları içerir.
+
+Adapte Edilecek Sınıf (Adaptee): Adaptörün uyumlu hale getirmek istediği var olan bir sınıftır.
+Bu sınıf, hedeflenen arabirime uymaz ve doğrudan birlikte çalışmak istediğimiz sınıflarla uyumlu değildir.
+
+Adaptör (Adapter): Adapte edilecek sınıfı hedeflenen arabirimle uyumlu hale getiren sınıftır.
+Bu sınıf, hedeflenen arabirimde tanımlanan metotları implemente eder ve adaptörün içinde adapte edilecek sınıfın
+bir örneğini tutar. Adaptör, hedeflenen arabirimle adapte edilecek sınıf arasında bir bağlantı görevi görür.
+
+Adapter tasarım deseni genellikle aşağıdaki durumlarda kullanılır:
+
+Var olan bir sınıfın arabirimini değiştirmek istemiyoruz, ancak bu sınıfı başka bir sınıf veya
+bileşenle birlikte kullanmamız gerekiyor.
+Farklı arabirimlere sahip olan sınıfları birlikte çalıştırmak istiyoruz.
+Birden fazla sınıfın arabirimini birleştirerek kullanmak istiyoruz.
+
+***********************************************************************************
+

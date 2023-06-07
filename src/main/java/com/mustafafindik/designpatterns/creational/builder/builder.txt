@@ -18,3 +18,12 @@ Builder deseni tek bir nesne oluşturmak için kullanılır.
 
 Observer deseni, bir nesne durumunda değişiklik olduğunda diğer nesneleri bildirim vermek için kullanılırken,
 Builder deseni bir nesne oluşturmak için kullanılır.
+
+************************************************************************
+
+Bir nesne oluşturulmak istendiği zaman farklı özellikler ekleme, temel nitelikler korunarak belirtilmek istenirse
+builder design pattern i kullanılabilir. Adı üstünde bir nesneyi sırayla inşa eder. Nesnelerin özellikleri kolaylıkla
+değiştirilebilir, özelleştirilebilir hale gelir.
+
+Builder design patterni, tek bir nesne üzerine yoğunlaşır.
+

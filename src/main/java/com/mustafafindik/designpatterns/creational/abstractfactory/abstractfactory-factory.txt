@@ -1,4 +1,5 @@
-Factory tasarım deseni ve Abstract Factory tasarım deseni, nesne yönelimli programlamada nesne yaratma işlemini yönetmek için kullanılan iki farklı tasarım desenidir.
+Factory tasarım deseni ve Abstract Factory tasarım deseni, nesne yönelimli programlamada nesne yaratma
+işlemini yönetmek için kullanılan iki farklı tasarım desenidir.
 
 Factory tasarım deseni, nesne yaratma işlemini bir fabrika sınıfı kullanarak gerçekleştirir.
 Bu fabrika sınıfı, istemci tarafından hangi nesnenin yaratılacağına karar verir ve ilgili sınıfı oluşturur.
