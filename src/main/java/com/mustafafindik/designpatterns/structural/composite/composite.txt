@@ -1,0 +1,10 @@
+Composite tasarım deseni, bir nesnenin birleşik bir nesne olarak davranmasına olanak tanır.
+Composite patterni, bir nesnenin tek başına kullanıldığında veya birden fazla nesnenin bir araya gelerek
+birleşik bir yapı oluşturduğunda aynı şekilde davranmasını sağlar.
+Bu desen, parça-bütün ilişkisini modellemek ve ağaç benzeri hiyerarşik yapıları temsil etmek için kullanılabilir.
+
+***********************************************************************
+
+Ağaç benzeri hiyerarşik nesne yönetimi sağlayan, structural bir design patterndir.
+Örneğin şirketin sahibi, yöneticileri ve çalışanları gibi. Çalışanlar yöneticilere, yöneticilerde şirketin sahibine
+bağlıdır.

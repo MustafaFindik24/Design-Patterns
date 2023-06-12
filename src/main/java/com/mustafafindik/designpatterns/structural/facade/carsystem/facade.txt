@@ -1,0 +1,14 @@
+Facade design patterni, bir alt sistem veya kütüphanenin karmaşık yapısını daha basit ve daha kullanıcı dostu
+bir arayüzle saran bir design patterndir. Bu pattern, client kodunu alt sisteme karşı bağımsız hale getirir ve
+alt sistemin iç yapısında yapılan değişikliklerin client kodunu etkilemesini önler. Genellikle büyük ve karmaşık
+sistemlerin kullanılabilirliğini artırmak için kullanılır.
+
+Facade design patterni, temel olarak bir arayüz sağlayarak alt sistemlerin karmaşık işlevlerini gizler.
+Client, sadece facade arayüzünü kullanarak alt sistemin fonksiyonlarını çağırabilir, böylece alt sistemle
+doğrudan etkileşime geçmek zorunda kalmaz. Bu, sistemdeki bağımlılıkları azaltır ve clientın yalnızca
+ilgili arayüzle ilgilenmesini sağlar.
+
+*************************************************************************************************************
+
+Facade, kodu bağımsız hale getirerek alt sınıflarda yapılan değişikliklerin client tarafını etkilemesini önleyen,
+büyük ve karışık sistemleri daha basit bir arayüze indirgemeyi amaçlayan yapısal bir tasarım modelidir.
