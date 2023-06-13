@@ -1,4 +1,4 @@
-package com.mustafafindik.designpatterns.structural.facade.carsystem;
+package com.mustafafindik.designpatterns.structural.facade;
 
 public class CoolingController {
     private static final Integer DEFAULT_RADIATOR_SPEED = 10;

@@ -1,4 +1,4 @@
-package com.mustafafindik.designpatterns.structural.facade.carsystem;
+package com.mustafafindik.designpatterns.structural.facade;
 
 public class CarEngineFacade {
     private static final Integer DEFAULT_COOLING_TEMP = 90;

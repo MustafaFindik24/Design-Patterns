@@ -1,0 +1,9 @@
+Proxy tasarım deseni, bir nesneye erişim sağlayan ve bu erişimi kontrol eden bir arayüz
+sağlayan bir yapısal tasarım desenidir. Proxy, gerçek nesneye erişimi sağlarken ek işlevsellik ekleyebilir
+veya gerçek nesneye erişimi kontrol edebilir. Bu sayede, gerçek nesneye erişimdeki maliyetli veya
+zaman alıcı işlemleri optimize etmek ve kullanıcıların gerçek nesneye doğrudan erişimini kontrol etmek mümkün olur.
+
+*********************************************************************
+
+Proxy, nesneye erişim maliyetini azaltan ve client ın direkt olarak veriye erişmesi yerine ara katman sağlayan
+bir structural design patterndir.

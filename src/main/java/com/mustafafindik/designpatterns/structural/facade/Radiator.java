@@ -1,4 +1,4 @@
-package com.mustafafindik.designpatterns.structural.facade.carsystem;
+package com.mustafafindik.designpatterns.structural.facade;
 
 import lombok.extern.slf4j.Slf4j;
 @Slf4j
