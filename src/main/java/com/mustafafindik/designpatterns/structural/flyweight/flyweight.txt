@@ -1,0 +1,14 @@
+Flyweight tasarım deseni, bellek kullanımını optimize etmek amacıyla kullanılan bir yapısal tasarım desenidir.
+
+Bu desen, nesne tabanlı programlamada sıkça karşılaşılan bellek kullanımı sorununu çözmek için kullanılır.
+Temel fikir, birbiriyle benzerlik gösteren nesnelerin paylaşılarak bellekteki yükü azaltmaktır.
+
+Flyweight tasarım deseninde, genellikle büyük miktarda oluşturulan ve benzer veriler içeren nesnelerin
+ortak özelliklerini paylaşabilmesi için bir paylaşılan durum (shared state) oluşturulur.
+Bu durum, aynı olan özellikleri depolayarak aynı özelliklere sahip nesnelerin bellekte tekrar tekrar
+oluşturulmasını engeller. Bunun sonucunda, bellekteki kullanılan alan azalır ve performans artar.
+
+***************************************************************************************************
+
+Flyweight, benzer özelliklere sahip olan nesnelerin tekrar oluşturulması yerine ilk yaratılan nesnenin referansını
+kullanarak bellek tüketimini azaltan structural design patterndir.
