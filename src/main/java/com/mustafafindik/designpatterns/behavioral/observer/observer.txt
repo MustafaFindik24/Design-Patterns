@@ -1,0 +1,13 @@
+Observer tasarım deseni, GoF (Gang of Four) tarafından tanımlanan ve nesneler arasında
+birbirlerinin durum değişikliklerini takip etmelerini sağlayan bir davranışsal tasarım desenidir.
+Bu desen, birçok nesnenin bir ana nesneyi izlemesini ve bu ana nesnenin durumunda herhangi bir değişiklik olduğunda
+tüm izleyicilere bildirim göndermesini sağlar.
+
+Bu tasarım deseni temel olarak iki bileşenden oluşur: gözlemleyici (Observer) ve gözlemlenen (Observable).
+Gözlemleyiciler, gözlemlenenin durum değişikliklerini izleyen ve bu değişikliklere yanıt olarak
+bir eylem gerçekleştiren nesnelerdir. Gözlemlenen, gözlemleyicilerin kaydolduğu ve bildirimleri aldığı nesnedir.
+
+****************************************************************************************************************
+
+Observer, pub-sub mantığına dayanan behavioral bir design patterndir. Birbirlerinin durumları
+hakkında haberleşebilirler.

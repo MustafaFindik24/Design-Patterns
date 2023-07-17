@@ -1,0 +1,15 @@
+Memento tasarım deseni, bir nesnenin durumunu kaydedip geri yüklemek için kullanılan bir davranışsal tasarım desenidir.
+Bu desen, bir nesnenin iç durumunu başka bir nesne olan "memento" olarak adlandırılan bir arabellekte saklar.
+Bu sayede, nesnenin durumunu daha sonra geri yükleyebilir ve istenen bir önceki duruma dönebiliriz.
+Memento tasarım deseni, nesne durumunun geri alma işlemi için kullanıldığı durumlarda oldukça faydalıdır.
+
+Memento tasarım deseni, üç temel bileşenden oluşur:
+
+Originator (Kaydedici): Durumu kaydedilecek olan nesneyi temsil eder.
+Memento: Kaydedilen nesnenin durumunu içeren arabellektir.
+Caretaker (Koruyucu): Memento nesnesini saklar ve geri yükleme işlemini gerçekleştirir.
+
+*****************************************************************************************************
+
+Memento, önceki durumların kaydedilmesi gereken noktada önceki durumu bir objeye atarak (snapshot) bellekte durumun
+kaydını sağlayan bir behavioral design patterndir.

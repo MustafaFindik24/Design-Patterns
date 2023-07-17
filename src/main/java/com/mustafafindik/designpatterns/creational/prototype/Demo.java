@@ -2,12 +2,14 @@ package com.mustafafindik.designpatterns.creational.prototype;
 
 public class Demo {
     public static void main(String[] args) {
-        ShapeCache.loadCache();
+        ConcretePrototype prototype = new ConcretePrototype("Prototype-1");
+        ConcretePrototype clonedPrototype = (ConcretePrototype) prototype.clone(); // we cloned the first object instead of new keyword usage
+        clonedPrototype.setName("Prototype-2");
 
-        Shape clonedShape1 = ShapeCache.getShape("1");
-        System.out.println("Shape : " + clonedShape1);
+        System.out.println(prototype.getName());
+        System.out.println(clonedPrototype.getName());
 
-        Shape clonedShape2 = ShapeCache.getShape("2");
-        System.out.println("Shape : " + clonedShape2);
+        System.out.print("More than one object holds a different memories as you can see : " + prototype.hashCode() + " \\ ");
+        System.out.println(clonedPrototype.hashCode());
     }
 }

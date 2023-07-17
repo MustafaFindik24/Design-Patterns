@@ -12,3 +12,7 @@ birleşik bir şekilde kullanılmasını sağlayarak esneklik ve ölçeklenebili
 ***********************************************************************************
 
 Decorator design patterni, nesnenin varolan yapısını koruyarak farklı özellikler kazardırmaya olanak sağlar.
+Örnekte görüldüğü üzere bir coffee interface i oluşturulup coffeedecorator tarafından implemente edilen bir
+abstract sınıf tarafından kullanılıyor. Coffee interfaceinden türeyen Kahve sınıflarını oluşturup kahveye ekstra
+eklemek istenilen özellikleri belirleyeceğimiz iki farklı decorator sınıfı daha belirttik ve istenilen kahveyle
+istenilen seçenekleri kolayca sunduğumuz bir arayüz tasarladık.

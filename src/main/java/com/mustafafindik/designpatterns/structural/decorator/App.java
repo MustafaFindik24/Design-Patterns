@@ -17,6 +17,6 @@ public class App {
         System.out.println("Americano with milk : " + americanoWithMilk.description() + "\nPrice : "+ americanoWithMilk.price());
 
         Coffee americanoWithSugar = new SugarDecorator(new MilkDecorator(new Americano()));
-        System.out.println("Americano with milk and sugar : " + americanoWithSugar.description() + "\nPrice : " + americanoWithSugar.price()); // DAMN IT WORKS!
+        System.out.println("Americano with milk and sugar : " + americanoWithSugar.description() + "\nPrice : " + americanoWithSugar.price()); // DAMN IT WORKED!
     }
 }

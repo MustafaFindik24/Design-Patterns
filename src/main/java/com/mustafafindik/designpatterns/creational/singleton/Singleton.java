@@ -1,7 +1,7 @@
 package com.mustafafindik.designpatterns.creational.singleton;
 
 public final class Singleton {
-    private static volatile Singleton instance; // değişken thread-safe olarak tanımlanır ve diğer threadler tarafından değiştirilemez
+    private static volatile Singleton instance; // field defines as thread-safe and cannot change from the other threads
     public String value;
 
     private Singleton(String value){
@@ -17,8 +17,8 @@ public final class Singleton {
         if (result != null){
             return result;
         }
-        if (instance == null){ // double-checked
-            synchronized (Singleton.class){ // synchronized birden fazla threadin aynı anda getInstance() erişmesini önler (thread-safe)
+        if (instance == null){ // we used double-checked to avoid slowdown
+            synchronized (Singleton.class){ // synchronized avoids more than one thread from reaching getInstance() at the same time (thread-safe)
                 if(instance == null){
                     instance = new Singleton(value);
                 }

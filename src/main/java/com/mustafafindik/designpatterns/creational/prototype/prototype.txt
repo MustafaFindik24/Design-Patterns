@@ -1,0 +1,15 @@
+Prototype tasarım deseninde temel fikir, bir örneğin bir prototipini kullanarak daha fazla örnek oluşturmaktır.
+Bu şekilde, her bir örnek için ayrı ayrı bir nesne oluşturmak yerine, varolan bir örneği klonlama yoluyla yeni örnekler oluşturabiliriz.
+
+Yukarıdaki örnekte, prototype adlı bir ConcretePrototype nesnesi oluşturuyoruz ve bu nesneyi klonluyoruz.
+Ardından, kopyalanan örneğin adını değiştiriyoruz. Sonuç olarak, orijinal prototipin adı "Prototype 1" olarak kalırken,
+kopyalanan prototipin adı "Prototype 2" olarak değişir.
+
+Prototype tasarım deseni, özellikle büyük nesnelerin oluşturulması maliyetli olduğunda veya
+yeni örneklerin yapısal olarak bir örneğin bir kopyası olmasını gerektiğinde faydalı olabilir.
+Kopyalama işlemi daha hızlıdır ve yeni nesne oluşturmak için daha az kaynak gerektirir.
+
+**********************************************************************************************
+
+Birden fazla obje yaratılması istenildiği zaman prototype design pattern ini kullanabiliriz.
+Basitçe Clonable sınıfını kullanarak objeleri daha az maliyetli şekilde yaratabiliriz.

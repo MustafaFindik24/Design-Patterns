@@ -1,0 +1,26 @@
+Mediator tasarım deseni, nesneler arasındaki iletişimi yönetmek için kullanılan bir tasarım desenidir.
+Bu desen, nesneler arasındaki sıkı bağımlılıkları azaltmayı sağlar ve böylece nesnelerin birbirleriyle doğrudan
+etkileşim kurmasını önler. Bunun yerine, tüm iletişim bir arabulucu (mediator) üzerinden gerçekleştirilir.
+
+Mediator tasarım deseni, birçok nesne arasında karmaşık bir iletişim ağı olduğunda ve bu iletişimi düzenlemenin ve
+yönetmenin gerektiği durumlarda kullanışlıdır. Bu desen, birbiriyle etkileşimde bulunan nesneler arasındaki bağımlılığı
+azaltır ve onları daha bağımsız hale getirir. Ayrıca, yeni bir nesne eklediğinizde veya var olan bir nesneyi
+değiştirdiğinizde mevcut nesnelerde minimum düzeyde değişiklik yapmanıza olanak tanır.
+
+Bir Mediator tasarım deseni genellikle aşağıdaki bileşenlerden oluşur:
+
+Mediator (Arabulucu): Nesneler arasındaki iletişimi sağlayan arabulucu sınıfıdır. Nesneler bu arabulucu üzerinden
+birbirleriyle etkileşime geçer.
+
+Colleague (İşbirlikçi): İletişim kurması gereken nesnelerin (Colleague) ortak arayüzünü tanımlayan bir soyut sınıftır.
+Bu sınıf, arabulucuyla iletişim kurmak için gerekli metodları içerir.
+
+ConcreteColleague (Somut İşbirlikçi): İşbirlikçi soyut sınıfından türeyen ve arabulucuyla iletişim kurmak için gerekli
+metodları uygulayan somut sınıflardır. Bu sınıflar, diğer işbirlikçilerle iletişim kurabilir ve
+arabulucuya durumlarını bildirebilir.
+
+***********************************************************************************************
+
+Mediator, nesneler arası iletişimin zor hale geldiği durumlarda aracı görevi görerek (sender - receiver) bağımlığığı
+minimuma indiren ve nesne yönetimini kolaylaştıran bir behavioral design patterndir.
+

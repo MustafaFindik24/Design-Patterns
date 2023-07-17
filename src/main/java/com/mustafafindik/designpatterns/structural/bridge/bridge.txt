@@ -1,0 +1,23 @@
+Bridge tasarım deseni, birbirinden bağımsız olarak değişebilen iki farklı hiyerarşik yapıyı bir araya getiren ve
+bu sayede yapıların birbirinden ayrı tutulmasını sağlayan bir tasarım desenidir. Bu desen, yapıların uygulama sırasında
+birleştirilmesini engelleyerek esneklik ve genişletilebilirlik sağlar.
+
+Bridge tasarım deseni, "birleştirme" (composition) prensibine dayanır. İki farklı hiyerarşiye sahip sınıf veya
+nesne yapısı vardır. Bir yapıyı değiştirmek veya genişletmek, diğer yapılara olan etkisini en aza indirmek için
+bu iki yapı arasında köprü (bridge) kurar.
+
+Bridge tasarım deseni, "Soyutlama (Abstraction)" ve "Uygulayıcı (Implementation)" olarak adlandırılan iki ayrı
+hiyerarşiye sahiptir. Soyutlama hiyerarşisi, somut uygulayıcıları kullanırken soyutlama sınıfını kullanır.
+Uygulayıcı hiyerarşisi ise gerçek işlemleri gerçekleştiren somut uygulayıcıları içerir.
+
+Bu desenin temel amacı, soyutlamayı uygulayıcıdan ayrı tutarak her iki hiyerarşiye de bağımsız olarak değişiklik
+yapabilmektir. Böylece, her iki hiyerarşiyi genişletebilir veya değiştirebilirsiniz, ancak biri diğerini etkilemez.
+
+Bridge tasarım deseni, özellikle karmaşık ve büyüyen sistemlerde kullanışlıdır. Bu desen sayesinde,
+yeni uygulayıcılar eklemek veya mevcut uygulayıcıları değiştirmek daha kolay olur ve soyutlama ve uygulayıcılar
+arasındaki sıkı bağımlılıklar azaltılır. Ayrıca, daha yüksek düzeyde esneklik ve ölçeklenebilirlik elde edilebilir.
+
+**********************************************************************************************************
+
+Bridge, farklı obje yapılarını ayrı tutarak birbirlerinden bağımsız olarak değişip geliştirilebilme olanağı sağlanan
+bir yapısal tasarım desenidir.

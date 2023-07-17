@@ -7,7 +7,8 @@ Bu fabrika sınıfı, istemci tarafından hangi nesnenin yaratılacağına karar
 
 Abstract Factory tasarım deseni ise, bir nesne grubunun yaratılmasını sağlayan bir arayüz sağlar.
 Bu arayüz, ilgili nesne grubunu yaratmak için soyut yöntemler sağlar. Örneğin, bir araba fabrikası,
-motor, gövde, tekerlekler gibi farklı parçalardan oluşan bir araba grubunu yaratmak için bir Abstract Factory tasarım deseni kullanabilir.
+motor, gövde, tekerlekler gibi farklı parçalardan oluşan bir araba grubunu yaratmak için
+bir Abstract Factory tasarım deseni kullanabilir.
 
 Factory tasarım deseni, tek bir nesne yaratma işlemine odaklanırken, Abstract Factory tasarım deseni,
 ilgili nesne grubunu yaratmak için soyut yöntemler sağlayan bir arayüz sağlar. Factory tasarım deseni,
@@ -15,4 +16,5 @@ nesne yaratma işleminin farklı sınıflar arasında değişebilmesi durumunda 
 Abstract Factory tasarım deseni, farklı nesne grupları arasında geçiş yapmanın gerektiği durumlarda kullanışlıdır.
 
 Özetle, Factory tasarım deseni, tek bir nesne yaratma işlemine odaklanırken, Abstract Factory tasarım deseni,
-ilgili nesne grubunu yaratmak için soyut yöntemler sağlayan bir arayüz sağlar ve farklı nesne grupları arasında geçiş yapmanın gerektiği durumlarda kullanışlıdır.
+ilgili nesne grubunu yaratmak için soyut yöntemler sağlayan bir arayüz sağlar ve farklı nesne grupları arasında
+geçiş yapmanın gerektiği durumlarda kullanışlıdır.

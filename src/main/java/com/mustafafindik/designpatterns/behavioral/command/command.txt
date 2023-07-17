@@ -1,0 +1,3 @@
+Command tasarım deseni, işlemleri nesneler aracılığıyla sarmalamayı ve böylece istemcilerin
+farklı işlemleri gerçekleştirmesini sağlamayı amaçlar. Bu desen, bir komutun başlatılmasını isteyen nesnelerle
+komutu gerçekleştiren nesneler arasında gevşek bağlantılar kurarak karmaşık bir işlemi yürütmek için kullanılır.

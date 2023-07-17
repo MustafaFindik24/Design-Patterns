@@ -1,0 +1,23 @@
+Iterator tasarım deseni, bir koleksiyonun elemanlarına sırayla erişmek için kullanılan bir desendir.
+Bu desen, koleksiyon üzerinde döngü işlemleri gerçekleştirmek için bir arabirim sağlar, böylece koleksiyonun
+iç yapısı hakkında hiçbir bilgiye ihtiyaç duymadan elemanlara erişim sağlanır. Iterator deseni, koleksiyon ve
+erişim mantığı arasındaki bağı gevşetir ve bu sayede koleksiyonun iç yapısı değiştiğinde
+kodun etkilenmeden kalmasını sağlar.
+
+Iterator deseni, üç temel bileşenden oluşur:
+
+Iterator (Dolaşıcı) : Koleksiyonun elemanlarına erişimi sağlayan bir arabirimdir.
+Koleksiyonun başından başlayarak sonuna kadar veya tersten dolaşarak elemanlara erişim sağlar.
+Iterator arabirimi genellikle "next" (sonraki), "hasNext" (sonraki var mı) ve "remove" (kaldır) gibi metotları içerir.
+
+Concrete Iterator (Somut Dolaşıcı): Iterator arabirimini uygulayan sınıftır. Koleksiyonun elemanlarına erişmek için
+gerekli olan işlemleri gerçekleştirir. Bir somut dolaşıcı, koleksiyon üzerindeki geçerli konumu ve
+diğer dolaşma işlemlerini takip eder.
+
+Collection (Koleksiyon): Elemanları üzerinde dolaşılabilecek bir nesne kümesini temsil eder.
+Koleksiyon sınıfı, dolaşılacak elemanları saklar ve dolaşıcı nesnesini döndüren bir metot sağlar.
+
+************************************************************************************************
+
+Iterator, farklı Collection sınıfı içerisindeki veri yapılarını (List, Set, Map, etc.) bir iterator
+arayüzü oluşturarak tek bir metot üzerinden kullanmamızı sağlayan bir behavioral design patterndir.

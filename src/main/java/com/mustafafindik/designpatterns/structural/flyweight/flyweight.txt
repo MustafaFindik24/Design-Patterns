@@ -12,3 +12,6 @@ oluşturulmasını engeller. Bunun sonucunda, bellekteki kullanılan alan azalı
 
 Flyweight, benzer özelliklere sahip olan nesnelerin tekrar oluşturulması yerine ilk yaratılan nesnenin referansını
 kullanarak bellek tüketimini azaltan structural design patterndir.
+
+Singleton tasarım deseninden flyweight deseninin farkı; farklı özelliklere sahip nesneler üretebilme olanağı sağlaması
+diyebiliriz.

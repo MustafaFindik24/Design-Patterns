@@ -1,0 +1,18 @@
+Chain of Responsibility, bir nesnenin bir isteği işlemek için başka bir nesneye
+yönlendirebildiği bir davranışsal tasarım desenidir.
+Bu desen, isteği gönderen nesnenin, isteği işleyecek olan nesneyi belirlemediği,
+bunun yerine bir zincir içindeki nesnelerin bu isteği işlemek için sırayla denendiği bir yapı sunar.
+
+Bu desenin ana fikri, isteği işlemek için sorumlu olan nesnenin belli bir sırayla zincire eklenmesi ve
+her bir nesnenin işlemi gerçekleştirmeye çalışmasıdır. İsteğin işlenmesiyle ilgili bir nesne bulunamazsa,
+istek zincirin sonuna kadar ulaşır ve sonuç olarak istek işlenmez.
+
+Chain of Responsibility deseninde genellikle bir "Handler" (İşleyici) arayüzü veya sınıfı yer alır.
+Bu işleyici, istekleri işlemek için bir metot tanımlar. Zincirdeki her bir işleyici, isteği işleyebiliyorsa
+bunu gerçekleştirir ve işleme son verir. Aksi takdirde, isteği bir sonraki işleyiciye iletir.
+
+*********************************************************************************************
+
+Chain of responsibility; nesneler arası iletim sağlayan, gelen isteği karşılayacak olan nesnenin bir zincir misali
+belirli bir düzen içerisinde eklenmesi ve isteğin bütün bir zincir boyunca işlenebilmesini sağlayan behavioral
+design patterndir.
