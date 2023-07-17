@@ -1,0 +1,17 @@
+State tasarım deseni, bir nesnenin durumunu değiştirmek için kullanılan bir davranışsal tasarım desenidir.
+Bu desen, bir nesnenin davranışını, nesnenin durumuna bağlı olarak değiştirmeyi sağlar.
+State deseni, durumların birden fazla olduğu ve nesnenin durumuna göre farklı davranışlar
+sergilediği durumlarda kullanışlıdır.
+
+State deseni genellikle aşağıdaki bileşenleri içerir:
+
+Context (Bağlam): State desenini kullanan nesnedir. Context, içerdiği durum nesnesi tarafından
+belirlenen davranışları gerçekleştirir. Context, State arayüzünü uygular ve içindeki durumu takip eder.
+
+State (Durum): State arayüzünü uygulayan ve farklı durumlar için farklı davranışlar tanımlayan sınıflardır.
+Her durum sınıfı, Context sınıfının gerçekleştirebileceği farklı davranışları temsil eder.
+
+**********************************************************************************************************
+
+State, bir nesnenin varolan durumunu değiştirmek veya birden fazla özellik arasında geçiş yapmak için kullanılan
+behavioral bir design patterdir.
