@@ -1,0 +1,16 @@
+Template tasarım deseni, bir sürecin temel yapısını tanımlayan ve bazı adımların alt sınıflar tarafından
+uygulanmasını sağlayan bir tasarım desenidir. Bu desen, bir sürecin genel bir şablonunu oluştururken,
+bazı adımların davranışını alt sınıflara bırakmak için kullanılır.
+Böylece, sürecin genel yapısı sabit kalırken, bazı adımların farklı şekillerde uygulanabilmesine olanak tanır.
+
+AbstractClass (Soyut Sınıf): Template tasarım deseninin ana bileşenidir ve sürecin genel yapısını tanımlar.
+Bu sınıfta soyut yöntemler ve somut yöntemler bulunur. Soyut yöntemler, alt sınıflar tarafından
+uygulanması gereken adımları temsil ederken, somut yöntemler, sürecin ortak adımlarını uygular.
+
+ConcreteClass (Somut Sınıf): AbstractClass'ı genişleten ve soyut yöntemleri uygulayan alt sınıflardır.
+Her alt sınıf, kendine özgü bir adım uygulamasını içerir.
+
+*****************************************************************************************************
+
+Template, birden fazla süreçte ortak kullanılan özellikleri temel bir sınıfta tanımlayıp ayrıştırıcı özellikleri
+alt sınıflar yardımıyla tanımlamaya olanak sağlayan bir behavioral design patterndir.

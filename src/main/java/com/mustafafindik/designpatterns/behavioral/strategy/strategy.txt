@@ -16,3 +16,9 @@ Her algoritma veya strateji ayrı bir sınıfa sahip olduğu için, kod tabanı 
 
 İlkelerin Ayrılması: Strategy deseni, tek sorumluluk ilkesine (SRP) uymayı destekler.
 Her bir strateji sınıfı, belirli bir algoritmanın veya stratejinin uygulanmasından sorumludur.
+
+*********************************************************************************************
+
+Strategy, birden fazla algoritma veya yöntemi birbirleri yerine kullanabilme olanağı sağlayan bir behavioral
+design patterndir. Bir interface üzerinden algoritmaların kalıtımı sağlanıp yeni bir yöntem belirlenmesi kolay ve
+basittir.
