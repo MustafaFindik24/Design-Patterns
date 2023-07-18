@@ -1,0 +1,18 @@
+Strategy tasarım deseni, davranışları değiştirilebilir hale getirmek ve farklı algoritmaları veya
+stratejileri birbirinin yerine kullanabilmek için kullanılan bir tasarım desenidir.
+Bu desen, birçok benzer algoritmanın farklı nesneler aracılığıyla uygulanmasını sağlar.
+Böylece, uygulama çalışma zamanında algoritmayı değiştirebilir ve davranışı dinamik olarak uyarlayabilir.
+
+Strategy tasarım deseninin bazı avantajları şunlardır:
+
+Esneklik: Strategy deseni, algoritmaların veya stratejilerin kolayca değiştirilebilmesini sağlar.
+Bu sayede uygulama dinamik olarak davranışı değiştirebilir.
+
+Sürdürülebilirlik: Algoritmalar veya stratejiler ayrı nesneler olarak uygulandığından,
+her biri ayrı ayrı sürdürülebilir ve test edilebilir.
+
+Temiz Kod: Strategy deseni, kodun daha temiz ve daha okunabilir olmasını sağlar.
+Her algoritma veya strateji ayrı bir sınıfa sahip olduğu için, kod tabanı daha modüler ve daha sade olur.
+
+İlkelerin Ayrılması: Strategy deseni, tek sorumluluk ilkesine (SRP) uymayı destekler.
+Her bir strateji sınıfı, belirli bir algoritmanın veya stratejinin uygulanmasından sorumludur.
