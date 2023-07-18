@@ -10,9 +10,8 @@ Creational Patterns : Bu tür kalıplar nesnenin nasıl yaratıldığıyla ilgil
 Structural Patterns : Oluşturulan nesnelerin nasıl birlikte kullanılacağı ve nesnelerin nasıl yapılandırılacağıyla ilgilenir. 
 Behavioral Patterns : Nesneler arasındaki durumsal çeşitliliği, nesnelerin birbirleri arasında geçişkenliği ve iletişimi sağlayan şekilleri ele alır.
 
-#🎯 Creational Patterns Nelerdir?
-📌Structural Patterns Nelerdir?
-
-Behavioral Patterns Nelerdir?
+###### 🎯 Creational Patterns Nelerdir?
+### 📌Structural Patterns Nelerdir?
+📌 # Behavioral Patterns Nelerdir?
 
 📌
