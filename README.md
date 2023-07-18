@@ -11,9 +11,8 @@ Structural Patterns : Oluşturulan nesnelerin nasıl birlikte kullanılacağı v
 Behavioral Patterns : Nesneler arasındaki durumsal çeşitliliği, nesnelerin birbirleri arasında geçişkenliği ve iletişimi sağlayan şekilleri ele alır.
 
 #🎯 Creational Patterns Nelerdir?
+📌Structural Patterns Nelerdir?
 
-🎯 #Structural Patterns Nelerdir?
-
-🎯##ehavioral Patterns Nelerdir?
+Behavioral Patterns Nelerdir?
 
 📌
