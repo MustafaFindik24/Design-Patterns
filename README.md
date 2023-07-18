@@ -17,15 +17,45 @@ Behavioral Patterns : Nesneler arasındaki durumsal çeşitliliği, nesnelerin b
 - Factory : Factory, en basit haliyle bir nesne yaratım patternidir. Nesne, tek bir sınıfta yaratılır ve if-else blokları ile sıralı olarak hangi nesnenin yaratılması gerektiğine karar verilir.
 - Prototype : Prototype, projede birden fazla obje kullanımı gereken durumlarda kullanılır. Cloneable sınıfından kalıtılarak nesne yaratma maliyetini normal bir yaratmaya göre azaltır.
 - Singleton : Nesnelerin yaratılması maliyetli kabul edildiği veya tek bir nesne üzerinden işlemlerin sağlanması gerektiği durumlarda singleton patterni kullanılabilir. 
+
 # 📌 Structural Patterns Nelerdir?
 
-- Adapter :
-- Bridge :
-- Composite :
-- Decorator :
-- Facade :
-- Flyweight :
-- Proxy :
-
+- Adapter : Adapter, sınıflar arasında uyuşmazlığın olduğu ancak ilgili sınıfın kullanılması gerektiği durumlar için elverişlidir. Mevcut bir sınıfı adapte edilmesi istenilen arabirime uyacak şekilde ilgili sınıftan bir nesne oluşturulup kullanımı sağlanır. 
+- Bridge : Bridge, farklı nesne yapılarını birbirlerinden ayrı tutarak bağımsız olarak değiştirilip geliştirilebilme imkanı sağlayan bir patterndir.
+- Composite : Composite, ağaç benzeri hiyerarşik bir nesne yönetimi sağlayan patterndir. Nesneler birbirleri içerisinde birleşik bir yapı oluşturur.
+- Decorator : Decorator, nesnenin hali hazırda olan yapısını koruyarak farklı özellikler kazandırılmasına olanak sağlar. Bu kalıpta benzer özelliklere sahip farklı nesnelerin oluşturulması ve o nesnelerin varolan özellikleri kazandırılması oldukça kolaydır.
+- Facade : Facade, kodu istemci tarafından bağımsız hale getirerek alt sınıflarda yapılan değişikliklerin istemci tarafını etkilemesini önleyen, büyük ve kompleks sistemleri daha basit bir arayüze indirgemeyi amaçlayan bir patterndir.
+- Flyweight : Flyweight, benzer özelliklere sahip olan nesnelerin tekrar oluşturulması yerine ilk yaratılan nesneyi kullanmayı sağlayan, bellek tüketimini azaltan bir patterndir.
+- Proxy : Proxy, nesneye erişim maliyetini azaltan ve istemci tarafının direkt olarak veriye erişimini kontrol eden bir patterndir.
 
 # 📌 Behavioral Patterns Nelerdir?
+
+- Chain of Responsibility : Nesneler arasında iletim sağlayan, gelen isteği karşılayacak olan nesnenin istenilen bir durum içerisinde eklenmesi ve isteğin nesneler arasında işlenebilmesini sağlayan bir patterndir.
+- Command : Command, işlemleri nesneler üzerinden yürütmeyi sağlayan, bu şekilde istemci tarafında farklı işlemleri gerçekleştirmeyi amaçlayan bir patterndir.
+- Iterator : Iterator, Collection frameworkü içerisindeki veri yapılarını (List, Set, Map, etc.) bir Iterator arayüzü oluşturarak istenilen yapıyı kullanmamıza olanak sağlayan bir patterndir.
+- Mediator : Mediator, nesneler arasındaki iletişimin karmaşık ve kompleks bir hale geldiği durumlarda aracı görevi görerek bağımlılığı azaltan ve nesnelerin yönetimini kolaylaştıran bir patterndir.
+- Memento : Memento, önceki durumun kaydedilmesi gerektiği durumlarda işlem yapılmadan önce durumu bir objede tutup istenilen zamanda önceki duruma geri dönüş sağlayan bir patterndir. 
+- Observer : Observer, pub-sub mantığına dayanan bir patterndir. Temelde iki bileşenden oluşan (Observer - Observable) nesneler kendi durumları aralarında haberleşebilirler. 
+- State : State, bir nesnenin varolan durumunu değiştirmek veya birden fazla özellik arasında geçiş yapmak için kullanılan bir patterndir.
+- Strategy : Strategy, birden fazla algoritmayı veya yöntemi birbirleri yerine kullanabilme özelliği sağlayan bir patterndir. Bir arayüz üzerinden algoritmaların kalıtımı sağlanıp yeni bir yöntem belirlenmesi oldukça esnek ve basittir.  
+- Template : Template, farklı süreçlerde ortak kullanılan özellikleri temel olarak bir sınıfta toplayıp ayrıştırıcı özellikleri alt sınıflar yardımıyla tanımlamaya olanak sağlayan bir patterndir.
+- Visitor : Visitor, varolan nesne yapısını değiştirmeden uygulamaya yeni modifikasyonlar kazandırmayı sağlayan bir patterndir.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
