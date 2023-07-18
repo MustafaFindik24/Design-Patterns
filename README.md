@@ -12,8 +12,8 @@ Behavioral Patterns : Nesneler arasındaki durumsal çeşitliliği, nesnelerin b
 
 #🎯 Creational Patterns Nelerdir?
 
-🎯# Structural Patterns Nelerdir?
+🎯 #Structural Patterns Nelerdir?
 
-🎯## Behavioral Patterns Nelerdir?
+🎯##ehavioral Patterns Nelerdir?
 
 📌
