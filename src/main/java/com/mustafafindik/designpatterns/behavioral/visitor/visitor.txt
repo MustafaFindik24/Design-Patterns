@@ -1,0 +1,19 @@
+Visitor tasarım deseni, nesne yapısını koruyarak, yeni operasyonları
+bu yapının elemanları üzerinde tanımlayabilmenizi sağlayan bir davranışsal desendir.
+Bu desen, sık sık değişen nesne yapısında yeni operasyonlar eklemeyi kolaylaştırırken,
+operasyonları elemanlardan bağımsız hale getirir.
+
+Bu desenin temel amacı, bir nesne yapısı içerisindeki elemanları dolaşmak ve
+her bir eleman için farklı bir operasyon gerçekleştirmektir.
+Bunun için iki temel bileşen kullanılır: Visitor (ziyaretçi) ve Element (eleman).
+Visitor, elemanları ziyaret eder ve her eleman için gerçekleştirilecek operasyonu belirler.
+Element ise ziyaretçiyi kabul eder ve kendi üzerinde gerçekleştirilecek operasyonu yürütür.
+
+Visitor tasarım deseni, Open/Closed prensibini destekler ve bir nesne yapısına yeni operasyonlar eklemek istediğinizde,
+mevcut elemanlarda herhangi bir değişiklik yapmanız gerekmez.
+Yalnızca yeni bir Visitor uygularsınız ve gerekli operasyonu tanımlarsınız.
+
+**********************************************************************************************************************
+
+Visitor, varolan nesne yapısını değiştirmeden uygulamaya yeni modifikasyonlar kazandırmamıza olana sağlayan
+bir behavioral design patterndir.
