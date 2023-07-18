@@ -11,5 +11,21 @@ Structural Patterns : Oluşturulan nesnelerin nasıl birlikte kullanılacağı v
 Behavioral Patterns : Nesneler arasındaki durumsal çeşitliliği, nesnelerin birbirleri arasında geçişkenliği ve iletişimi sağlayan şekilleri ele alır.
 
 # 📌 Creational Patterns Nelerdir?
+
+- Abstract Factory : Birden fazla nesne grubunu oluşturmayı amaçlayan ve farklı nesneler arasında kullanım sağlayan bir tasarım kalıbıdır. Interfaceler veya abstract sınıflar aracılığıyla nesne içerisinde alt nesneler yaratımı sağlanır. Bu sayede nesne özellikleri çeşitlendirilmiş olur.
+- Builder : Nesne oluştururken nesnenin esnek bir yapıya sahip olması gerektiğinde kullanılabilir. Builder, nesnenin temel özelliklerini korurken aynı zamanda spesifik özelliklerin eklenmesine ve bu nesneyi sırasıyla inşaa etmeye olanak sağlar. Builder design patterni, tek bir nesne üzerine yoğunlaşır.
+- Factory : Factory, en basit haliyle bir nesne yaratım patternidir. Nesne, tek bir sınıfta yaratılır ve if-else blokları ile sıralı olarak hangi nesnenin yaratılması gerektiğine karar verilir.
+- Prototype : Prototype, projede birden fazla obje kullanımı gereken durumlarda kullanılır. Cloneable sınıfından kalıtılarak nesne yaratma maliyetini normal bir yaratmaya göre azaltır.
+- Singleton : Nesnelerin yaratılması maliyetli kabul edildiği veya tek bir nesne üzerinden işlemlerin sağlanması gerektiği durumlarda singleton patterni kullanılabilir. 
 # 📌 Structural Patterns Nelerdir?
+
+- Adapter :
+- Bridge :
+- Composite :
+- Decorator :
+- Facade :
+- Flyweight :
+- Proxy :
+
+
 # 📌 Behavioral Patterns Nelerdir?
